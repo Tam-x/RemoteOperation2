@@ -4,7 +4,7 @@ green_light_style = '''QPushButton{background:#6DDF6D;border-radius:8px;margin:6
 list_tab_style = '''QListWidget{padding-top:12px;border:1px solid lightgray; color:white; background:#0046A5;font-size:15pt;font-family: '新宋体';}
                 QListWidget::Item{padding-top:0px; padding-bottom:0px; }
                 QListWidget::Item:hover{background:white;color:gray }
-                QListWidget::item:selected{background:wheat; color:white; }
+                QListWidget::item:selected{background:wheat; color:black; }
                 QListWidget::item:selected:!active{border-width:0px; background:lightgray; color:dark;}'''
 list_cmd_style = '''QListWidget{border:0px solid white;color:white;font-size:14pt;font-family: "新宋体";background:lightgray}
                 QListWidget::Item{background:#0046A5; }
