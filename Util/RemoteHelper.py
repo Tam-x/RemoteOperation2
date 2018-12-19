@@ -47,7 +47,8 @@ class RemoteHelper(object):
 
         ### 验证数据
         if not os.path.exists(source):
-            LogInfo.put(u'来源资源不存在，请检查：' + source)
+            LogInfo.put(u'源资源不存在，请检查：' + source)
+            LogInfo.put('--upload over--')
             return
         ### 格式数据
         # 格式化目标路径
